@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @baby_clothe.name %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @baby_clothe.size %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @baby_clothe.color %>
+</p>
+
+<%= link_to 'Edit', edit_baby_clothe_path(@baby_clothe) %> |
+<%= link_to 'Back', baby_clothes_path %>
